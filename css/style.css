@@ -1,0 +1,178 @@
+/* Media queries
+Extra small devices Phones (<768px)*/
+@media (min-width: 0px) and  (max-width: 768px) 
+{ 
+
+.btn2{
+	margin-left: 40%;
+	margin-top: 70px;
+    font-size: 15px;
+    font-weight: 600px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 20px;
+	}	
+.icons{
+		padding-left: 25%;
+		padding-top: 50px;
+	}
+#btn2{
+  	margin-left: 40%;
+  	}
+}
+
+
+/* Small devices Tablets (≥768px) */
+@media (min-width: 768px) and (max-width: 992px)
+{ 
+	#btn2{
+		margin-left: 42%;
+		margin-top: 40px;
+	}
+	.btn2{
+		margin-left: 42%;
+		margin-top: 70px;
+    	font-size: 15px;
+    	font-weight: 600px;
+    	letter-spacing: .1em;
+    	text-transform: uppercase;
+    	text-align: center;
+    	text-shadow: 20px;
+	}
+	.icons{
+		padding-left: 25%;
+	}
+}
+
+/* Medium devices Desktops (≥992px) */
+@media (min-width: 992px) and (max-width: 1200px)
+{ 
+	#btn2{
+		margin-left: 20%;
+		margin-top: 40px;
+	}
+	.btn2{
+		margin-left: 42%;
+		margin-top: 70px;
+    	font-size: 15px;
+    	font-weight: 600px;
+    	letter-spacing: .1em;
+    	text-transform: uppercase;
+    	text-align: center;
+    	text-shadow: 20px;
+	}
+}
+
+/* Large devices Desktops (≥1200px) */
+@media (min-width: 1200px) and (max-width: 2000px)
+{ 
+	#btn2{
+		margin-left: 70px;
+		margin-top: 40px;
+	}
+	.btn2{
+		margin-left: 45%;
+		margin-top: 70px;
+    	font-size: 15px;
+    	font-weight: 600px;
+    	letter-spacing: .1em;
+    	text-transform: uppercase;
+    	text-align: center;
+    	text-shadow: 20px;
+	}
+
+}
+
+
+body{
+	font-family: "freight=text-pro",serif;
+	letter-spacing: .05em;
+	font-size: 16px;
+	padding-top: 50px;
+} 
+
+hr{
+	width: 60px;
+}
+
+#mainnavbar ul,li a{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+	
+}
+
+.main{
+	background-image: url(../images/bgmain.jpg);
+	height: 1080px;
+	margin-bottom: 20px
+}
+
+#title{
+	text-align: center;
+	color: black;
+	margin-top: 600px;
+	font-size: 72px;
+}
+
+.title-bordered{
+	margin-top: 150px;
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .1em;
+    color: #5f5e5b;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;  
+}
+
+.blockquote{
+	font-size:46px;
+	text-align: center;
+}
+
+.aboutme{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 27px;
+}
+
+.content-work{
+	margin-top: 100px;
+}
+.btn1{
+	margin-left: 47%;
+	margin-top: 70px;
+    font-size: 15px;
+    font-weight: 600px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px;
+}
+
+#dis{
+	margin-right: 50px;
+}
+
+#vid{
+	margin-top: 70px;
+}
+
+.tours{
+	border: 4px double black;
+}
+
+.number{
+	font-size: 80px;
+}
+
+.hr1{
+	width: 200px;
+}
+
+.icons{
+	margin-left: 148px;
+}
